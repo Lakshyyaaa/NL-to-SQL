@@ -3,7 +3,7 @@ import streamlit as st
 import sqlite3
 import google.generativeai as genai
 
-key = 'AIzaSyBqI2TanjCyUWNgi7ImRpX7vZnwsgiFpHA'
+key = 'Your Key'
 genai.configure(api_key=key)
 
 def extract_schema(db_path):
